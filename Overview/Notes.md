@@ -3,7 +3,7 @@
 **A COMPREHENSIVE REVIEW OF RECOMMENDER SYSTEMS:  TRANSITIONING FROM THEORY TO PRACTICE**
 
 ## 传统推荐方法
-* **1. 协同过滤 collaborative filtering (CF)**：基于用户间的相似度（UserCF）或五物品间的相似度（ItemCF）做推荐。分为两大类：
+* **1. 协同过滤 collaborative filtering (CF)**：基于用户间的相似度（UserCF）或物品间的相似度（ItemCF）做推荐。分为两大类：
     (1) Memory-based CF：从用户的历史行为中计算。分为Usercf与ItemCF
     (2) Model-based CF：例如矩阵分解，因式分解，将用户-物品的矩阵分解到潜在空间
 * **2. 基于内容的过滤 content-based filtering (CBF)** 根据用户过去的偏好和物品特征，使用诸如词频-逆文档频率( TF-IDF )、余弦相似度和神经网络等技术进行物品表示来推荐物品。基于物品和用户的相似度。缺点：冷启动问题。CF CBF都面临计算复杂度的限制
